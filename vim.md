@@ -77,8 +77,8 @@ Type p to put previously deleted text after the cursor. (PASTE a deleted word or
 Type r(x) to replace the character at the cursor with x. (Replace a character).
 
 ### The change operator
-The change operator is used with the same motions as delete.
-1. To change until the end of a word, type ce.
+The change operator is used with the same motions as delete. <br>
+1. To change until the end of a word, type ce. <br>
 2. To change until the end of a line type c$.
 
 # Lesson 4
@@ -150,7 +150,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an ex
 ### Copy and Paste operator
 1. Use the y to copy and p to paste.
 2. Move the cursor to the end of the next line:  j$
-3. Type  p  to put (paste) the text.
+3. Type  p  to put (paste) the text. <br>
 NOTE: you can also use  y  as an operator;  yw  copy one word.
 
 ### Set option
@@ -160,11 +160,11 @@ NOTE: you can also use  y  as an operator;  yw  copy one word.
 4. :set hls is -> highlight all the searched words.
 5. To disable ignoring case enter  :set noic
 6. To remove the highlighting of matches enter:
-:nohlsearch
+:nohlsearch <br>
 NOTE:  If you want to ignore case for just one search command, use  \c
              in the phrase:  /ignore\c  <ENTER>
 
-* 6. Typing ":set xxx" sets the option "xxx".  Some options are:
+* Typing ":set xxx" sets the option "xxx".  Some options are:
         'ic' 'ignorecase'       ignore upper/lower case when searching
         'is' 'incsearch'        show partial matches for a search phrase
         'hls' 'hlsearch'        highlight all matching phrases
@@ -173,7 +173,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 # Lesson 7
 ### Getting Help
 on-line help system
-* <F1>
+* Enter \<F1>\
 * :help <ENTER>
 * :help cmd to find help on cmd
 
@@ -198,3 +198,96 @@ Command line completion with CTRL-D and <TAB>
 When typing a  :  command, press CTRL-D to see possible completions. Press <TAB> to use one completion.
 
 NOTE:  Completion works for many commands.  Just try pressing CTRL-D and <TAB>.  It is especially useful for  :help .
+
+#EXAM OF COMMANDS
+What does the following commands does?
+Lesson 1
+h
+j
+k
+l
+:q!
+:wq
+x
+dw
+de
+d$
+d2w
+d4w
+dd
+2dd
+i   
+A
+
+Lesson 2
+w
+e
+$
+2w
+3e
+0
+$
+u
+U
+CTRL-R
+
+Lesson 3
+p
+r(x)
+ce
+c$
+
+Lesson 4
+ctrl-G
+G
+gg
+[number of line] + G
+/[word]
+n
+N
+ctrl + O
+ctrl + I
+%
+:s/old/new
+:s/old/new/g
+:#,#s/old/new/g
+:%s/old/new/g
+:%s/old/new/gc
+
+Lesson 5
+![external command]
+!ls[ENTER]
+:w FILENAME
+:!rm FILENAME
+v
+v [highlight text]:w FILENAME
+vd
+:r FILENAME
+:r !ls
+
+Lesson 6
+o
+O
+a
+R
+y
+j$
+yw
+:set ic [word]
+:set hls is
+:set noic
+:nohlsearch
+/ignore\c
+:set is
+:set hls
+
+Lesson 7
+f1
+:help
+:help cmd
+CTRL-W CTRL-W
+:q
+Position the cursor on a tag (e.g. |bars|) and hit CTRL-]
+CTRL-T
+CTRL-O
+CTRL-D
