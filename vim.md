@@ -20,10 +20,10 @@ NOTE: If you are ever unsure about something you typed, press <ESC> to place you
 
 ## Exiting VIM
 1. Press the <ESC> key (to make sure you are in Normal mode).
-2. Type:      :q! <ENTER>.
+2. Type:      :q! \<ENTER>.
      This exits the editor, DISCARDING any changes you have made.
 3. To exit and save changes:
-:wq <ENTER>
+:wq \<ENTER>
 
 ## TEXT EDITING
 ### Deletion
@@ -46,7 +46,7 @@ Press A and it will go to the last character, and you can type any necessary add
 1. To go to Vim Editor, type vim tutor (vim is the command to start the editor and tutor is the name of the file).
 2. Insert and delete text as you learned.
 3. Save the file with
-:wq <ENTER>
+:wq \<ENTER>
 
 # Lesson 2
 
@@ -110,7 +110,7 @@ This is very useful in debugging a program with unmatched parentheses!
 # Lesson 5
 ### How to execute an external command
  Type :! followed by an external command to execute that command. (like :!ls to listing your directory) <br>
-NOTE:  All  :  commands must be finished by hitting <ENTER>.
+NOTE:  All  :  commands must be finished by hitting \<ENTER>.
 
 ### More on writing files
 1. To save changes made to the text, type :w FILENAME.
@@ -162,7 +162,7 @@ NOTE: you can also use  y  as an operator;  yw  copy one word.
 6. To remove the highlighting of matches enter:
 :nohlsearch <br>
 NOTE:  If you want to ignore case for just one search command, use  \c
-             in the phrase:  /ignore\c  <ENTER>
+             in the phrase:  /ignore\c  \<ENTER>
 
 * Typing ":set xxx" sets the option "xxx".  Some options are:
         'ic' 'ignorecase'       ignore upper/lower case when searching
@@ -174,11 +174,11 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 ### Getting Help
 on-line help system
 * Enter \<F1>
-* :help <ENTER>
+* :help \<ENTER>
 * :help cmd to find help on cmd
 
 1. Type CTRL-W CTRL-W to jump from one window to another
-2. Type :q <ENTER> to close help window
+2. Type :q \<ENTER> to close help window
 
 
 * Jump to a subject:  Position the cursor on a tag (e.g. |bars|) and hit CTRL-].
@@ -202,22 +202,22 @@ NOTE:  Completion works for many commands.  Just try pressing CTRL-D and <TAB>. 
 #EXAM OF COMMANDS
 What does the following commands does?
 Lesson 1
-h
-j
-k
-l
-:q!
-:wq
-x
-dw
-de
-d$
-d2w
-d4w
-dd
-2dd
-i   
-A
+h --
+j --  
+k  
+l  
+:q!  
+:wq  
+x  
+dw  
+de  
+d$  
+d2w  
+d4w  
+dd  
+2dd  
+i      
+A  
 
 Lesson 2
 w
