@@ -202,11 +202,11 @@ NOTE:  Completion works for many commands.  Just try pressing CTRL-D and <TAB>. 
 #EXAM OF COMMANDS
 What does the following commands does?
 Lesson 1
-h --
-j --  
-k  
+h  
+j    
+k    
 l  
-:q!  
+:q!    
 :wq  
 x  
 dw  
@@ -220,74 +220,74 @@ i
 A  
 
 Lesson 2
-w
-e
-$
-2w
-3e
-0
-$
-u
-U
-CTRL-R
+w  
+e  
+$  
+2w  
+3e  
+0  
+$  
+u  
+U  
+CTRL-R  
 
 Lesson 3
-p
-r(x)
-ce
-c$
+p  
+r(x)  
+ce  
+c$  
 
 Lesson 4
-ctrl-G
-G
-gg
-[number of line] + G
-/[word]
-n
-N
-ctrl + O
-ctrl + I
-%
-:s/old/new
-:s/old/new/g
-:#,#s/old/new/g
-:%s/old/new/g
-:%s/old/new/gc
+ctrl-G  
+G  
+gg  
+[number of line] + G  
+/[word]  
+n  
+N  
+ctrl + O  
+ctrl + I  
+%  
+:s/old/new  
+:s/old/new/g  
+:#,#s/old/new/g  
+:%s/old/new/g  
+:%s/old/new/gc  
 
 Lesson 5
-![external command]
-!ls[ENTER]
-:w FILENAME
-:!rm FILENAME
-v
-v [highlight text]:w FILENAME
-vd
-:r FILENAME
-:r !ls
+![external command]  
+!ls[ENTER]  
+:w FILENAME  
+:!rm FILENAME  
+v  
+v [highlight text]:w FILENAME  
+vd  
+:r FILENAME  
+:r !ls  
 
 Lesson 6
-o
-O
-a
-R
-y
-j$
-yw
-:set ic [word]
-:set hls is
-:set noic
-:nohlsearch
-/ignore\c
-:set is
-:set hls
+o  
+O  
+a  
+R  
+y  
+j$  
+yw  
+:set ic [word]  
+:set hls is  
+:set noic  
+:nohlsearch  
+/ignore\c  
+:set is  
+:set hls  
 
 Lesson 7
-f1
-:help
-:help cmd
-CTRL-W CTRL-W
-:q
-Position the cursor on a tag (e.g. |bars|) and hit CTRL-]
-CTRL-T
-CTRL-O
-CTRL-D
+f1   
+:help  
+:help cmd  
+CTRL-W CTRL-W  
+:q  
+Position the cursor on a tag (e.g. |bars|) and hit CTRL-]  
+CTRL-T  
+CTRL-O  
+CTRL-D  
