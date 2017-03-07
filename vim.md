@@ -201,7 +201,7 @@ NOTE:  Completion works for many commands.  Just try pressing CTRL-D and <TAB>. 
 
 #EXAM OF COMMANDS
 What does the following commands does?
-Lesson 1
+###Lesson 1  
 h  
 j    
 k    
@@ -219,7 +219,7 @@ dd
 i      
 A  
 
-Lesson 2
+###Lesson 2  
 w  
 e  
 $  
@@ -231,13 +231,13 @@ u
 U  
 CTRL-R  
 
-Lesson 3
+###Lesson 3  
 p  
 r(x)  
 ce  
 c$  
 
-Lesson 4
+###Lesson 4  
 ctrl-G  
 G  
 gg  
@@ -254,7 +254,7 @@ ctrl + I
 :%s/old/new/g  
 :%s/old/new/gc  
 
-Lesson 5
+###Lesson 5  
 ![external command]  
 !ls[ENTER]  
 :w FILENAME  
@@ -265,7 +265,7 @@ vd
 :r FILENAME  
 :r !ls  
 
-Lesson 6
+###Lesson 6  
 o  
 O  
 a  
@@ -281,7 +281,7 @@ yw
 :set is  
 :set hls  
 
-Lesson 7
+###Lesson 7  
 f1   
 :help  
 :help cmd  
