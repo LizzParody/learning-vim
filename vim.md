@@ -173,7 +173,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 # Lesson 7
 ### Getting Help
 on-line help system
-* Enter \<F1>\
+* Enter \<F1>
 * :help <ENTER>
 * :help cmd to find help on cmd
 
