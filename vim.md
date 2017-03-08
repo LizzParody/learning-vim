@@ -216,7 +216,8 @@ d2w
 d4w  
 dd  
 2dd  
-i      
+i    
+a    
 A  
 
 ###Lesson 2  
@@ -235,6 +236,8 @@ CTRL-R
 p  
 r(x)  
 ce  
+cw  
+c3w  
 c$  
 
 ###Lesson 4  
@@ -273,7 +276,7 @@ R
 y  
 j$  
 yw  
-:set ic [word]  
+:set ic \<ENTER> +[word]  
 :set hls is  
 :set noic  
 :nohlsearch  
@@ -282,12 +285,11 @@ yw
 :set hls  
 
 ###Lesson 7  
-f1   
+\<f1>   
 :help  
 :help cmd  
 CTRL-W CTRL-W  
 :q  
-Position the cursor on a tag (e.g. |bars|) and hit CTRL-]  
-CTRL-T  
+Position the cursor on a tag (e.g. |bars|) and hit CTRL-]   
 CTRL-O  
 CTRL-D  
