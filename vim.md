@@ -149,8 +149,9 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an ex
 
 ### Copy and Paste operator
 1. Use the y to copy and p to paste.
-2. Move the cursor to the end of the next line:  j$
-3. Type  p  to put (paste) the text. <br>
+2. Use visual mode v and move what you want to copy
+3. Type y to copy
+4. Type  p  to put (paste) the text. <br>
 NOTE: you can also use  y  as an operator;  yw  copy one word.
 
 ### Set option
