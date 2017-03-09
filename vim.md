@@ -259,8 +259,8 @@ ctrl + I
 :%s/old/new/gc  
 
 ###Lesson 5  
-![external command]  
-!ls[ENTER]  
+:![external command]  
+:!ls[ENTER]  
 :w FILENAME  
 :!rm FILENAME  
 v  
