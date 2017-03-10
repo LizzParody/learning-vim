@@ -281,6 +281,7 @@ yw
 :set hls is  
 :set noic  
 :nohlsearch  
+:set nohlsearch
 /ignore\c  
 :set is  
 :set hls  
