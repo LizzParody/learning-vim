@@ -294,4 +294,6 @@ CTRL-W CTRL-W
 :q  
 Position the cursor on a tag (e.g. |bars|) and hit CTRL-]   
 CTRL-O  
-CTRL-D  
+CTRL-D
+
+vi ~/.vimrc - > vim configuration (run commands);
