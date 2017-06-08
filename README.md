@@ -297,3 +297,11 @@ CTRL-O
 CTRL-D
 
 vi ~/.vimrc - > vim configuration (run commands);
+
+
+
+JANUS
+Install Janus...
+open ~/.vimrc and copy
+:colorscheme PapayaWhip
+:set guifont=Menlo\ Regular:h18
