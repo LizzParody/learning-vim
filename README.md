@@ -302,6 +302,8 @@ vi ~/.vimrc - > vim configuration (run commands);
 
 JANUS
 Install Janus...
-open ~/.vimrc and copy
-:colorscheme PapayaWhip
-:set guifont=Menlo\ Regular:h18
+open ~/.vimrc and copy   
+
+:colorscheme PapayaWhip   
+:set guifont=Menlo\ Regular:h18   
+nmap <F6> :NERDTreeToggle<CR>
